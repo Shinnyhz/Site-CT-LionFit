@@ -14,7 +14,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [{ rel: "canonical", href: "/" }],
-    scripts: [{ type: "application/ld+json", children: JSON.stringify({ "@context": "https://schema.org", "@type": "HealthClub", name: "CT LionFIT", telephone: "+55 88 99921-5094", address: { "@type": "PostalAddress", streetAddress: "R. Jacinto Cruz, 02 - de Agosto", addressLocality: "Morada Nova", addressRegion: "CE", postalCode: "62940-000", addressCountry: "BR" }, sameAs: ["https://www.instagram.com/ctlionfit/"] }) }],
+    scripts: [{ type: "application/ld+json", children: JSON.stringify({ "@context": "https://schema.org", "@type": "HealthClub", name: "CT LionFIT", telephone: "+55 88 9364-4658", address: { "@type": "PostalAddress", streetAddress: "R. Jacinto Cruz, 02 - de Agosto", addressLocality: "Morada Nova", addressRegion: "CE", postalCode: "62940-000", addressCountry: "BR" }, sameAs: ["https://www.instagram.com/ctlionfit/"] }) }],
   }),
   component: Index,
 });
